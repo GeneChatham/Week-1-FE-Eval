@@ -1,0 +1,18 @@
+.btn {
+	background-color: black;
+	color: white;
+	font-size: 25px;
+	font-family: Times, serif;
+}
+
+.fa-cutlery {
+	font-size: 30px;
+}
+
+.nav_bar {
+	text-align: center;
+}
+
+.middle_row {
+	height: 400px;
+}
