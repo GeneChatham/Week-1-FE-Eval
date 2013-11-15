@@ -11,8 +11,26 @@
 
 .nav_bar {
 	text-align: center;
+	background-image: url(tablecloth.jpg);
 }
 
 .middle_row {
 	height: 400px;
+}
+
+#logo {
+	width: 100%;
+}
+
+.bottom_row {
+	height: 100px;
+	background-image: url(tablecloth.jpg);
+}
+
+#youtube {
+	width: 100%;
+}
+
+#facebook {
+	height: 65px;
 }
