@@ -1,57 +1,52 @@
 * {
-	font-family: Times, serif;
+	font-family: 'Balthazar', serif;
 }
 
-.hours h2 {
-	font-family: Times, serif;
-	font-weight: bold;
+h3 {
+	font-family: 'Balthazar', serif;
+
 }
 
-.hours {
-	font-family: Times, serif;
-	font-size: 20px;
-}
+
 
 .btn {
 	background-color: black;
 	color: white;
 	font-size: 25px;
-	margin-top: 25px;
 	border: black;
+	margin: 5px;
+	height: 50px;
 }
 
 .btn:hover {
-	background-color: #D22118;
+	background-color: white;
 }
 
-.fa-cutlery {
-	font-size: 30px;
-}
 
 .nav_bar {
-	height: 100px;
+	padding: 30px;
 	text-align: center;
 	background-image: url(tablecloth.jpg);
 }
 
-.middle_row {
-	height: 400px;
-}
-
 #logo {
 	width: 100%;
-	margin: 0 auto;
+}
+
+.middle_row {
+	font-family: 'Balthazar', serif;
+	font-size: 20px;
+	color: white;
+	background-color: black;
 }
 
 .bottom_row {
-	height: 100px;
+	padding: 15px;
+	text-align: center;
 	background-image: url(tablecloth.jpg);
 	/*padding: 10px;*/
 }
 
-.bottom_row img{
-	margin: 20px;
-}
 
 #youtube {
 	width: 100%;
@@ -62,3 +57,43 @@
 	height: 65px;
 	max-width: 200px;
 }
+
+#mainlogo {
+	margin: 10px;
+}
+
+.icon {
+	margin: 10px;
+}
+
+#hours {
+	/*border: 1px solid white;*/
+	/*border-radius: 5%;*/
+	margin: 3px;
+	padding: 3px;
+
+}
+
+#reservations {
+	/*border: 1px solid white;*/
+	/*border-radius: 5%;*/
+	margin: 3px;
+	padding: 3px;
+
+}
+
+#map_link {
+	color: #FFC8C8;
+}
+
+#spiel {
+	text-align: center;
+}
+
+/*#map_link:hover{
+	border-color: white;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}*/
+

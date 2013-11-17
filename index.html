@@ -3,7 +3,9 @@
     <head>
         <meta charset="UTF-8">
         
-        <title>Title</title>
+        <title>Luigi's!</title>
+
+        <link href='http://fonts.googleapis.com/css?family=Balthazar' rel='stylesheet' type='text/css'>
         
         <!-- Latest compiled and minified bootstrap CSS -->
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" />
@@ -52,37 +54,56 @@
 			
 			<div class="col-lg-1"></div> <!-- offset from left side of page -->
 			
-			<div class="col-lg-2 hours"> <!-- holds hours and phone number -->
-				<h2>Luigi's Hours</h2>
-				<div>
-					<p>Monday - Thursday
-						<br>11AM &nbsp;<i class="fa fa-arrows-h">&nbsp;</i> 10PM
-					</p>
+			<div class="col-lg-2"> <!-- holds hours and phone number -->
+				<div id="hours">
+					<h3><u>LUIGI'S HOURS</u></h3>
+					<div>
+						<p>Monday - Thursday
+							<br>11AM &nbsp;<i class="fa fa-arrows-h">&nbsp;</i> 10PM
+						</p>
 					
-					<p></p>
-					<p>Friday
-						<br>11AM &nbsp;<i class="fa fa-arrows-h">&nbsp;</i> 11PM
-					</p>
-					
-					<p></p>
-					<p>Saturday
-						<br> 4PM &nbsp;<i class="fa fa-arrows-h">&nbsp;</i> 11PM
-					</p>
-					
-					<p></p>
-					<p>Sunday
-					<br> 4PM &nbsp;<i class="fa fa-arrows-h">&nbsp;</i> 9PM
-					</p>
+						<p></p>
+						<p>Friday
+							<br>11AM &nbsp;<i class="fa fa-arrows-h">&nbsp;</i> 11PM
+						</p>
+						
+						<p></p>
+						<p>Saturday
+							<br> 4PM &nbsp;<i class="fa fa-arrows-h">&nbsp;</i> 11PM
+						</p>
+						
+						<p></p>
+						<p>Sunday
+						<br> 4PM &nbsp;<i class="fa fa-arrows-h">&nbsp;</i> 9PM
+						</p>
 
+					</div>
 				</div>
 			</div>
 			
-			<div class="col-lg-6"> <!-- holds main logo-->
-				<img id="logo" src="mainLogo.jpg" alt="LUIGI'S!">
+			<div class="col-md-6"> <!-- holds main logo and info-->
+				<div id="mainlogo">
+					<img id="logo" src="mainLogo.jpg" alt="LUIGI'S!">
+				</div>
+				<div id="spiel">
+					<p>Come on down to the Italian restaurant that folks have been raving about for years!</p>
+
+					<p>Located in beautiful downtown Spokane, Luigi's is one block from the Spokane Center and a few blocks from great shopping and one of the most picturesque city parks in America.</p>
+				</div>
 			</div>
 			
-			<div class="col-lg-2"> <!-- holds location info -->
-				location?
+			<div class="col-lg-2"> <!-- holds reservation and map link info -->
+				<div id="reservations">
+					<h3><u>RESERVATIONS</u></h3>
+					<p>(509) 624 - 5226</p>
+					<br>
+					<br>
+					<h3><u>LOCATION</u></h3>
+					<a id="map_link" href="https://maps.google.com/maps?q=luigi's+spokane&hl=en&ll=47.660257,-117.415352&spn=0.008816,0.01884&sll=47.662566,-117.423677&sspn=0.002204,0.00471&t=m&z=16">		
+						<p>245 West Main</p>
+						<p>Spokane, WA 99201</p>
+					</a>	
+				</div>
 			</div>
 			
 			<div class="col-lg-1"></div> <!-- offset from right side of page -->
@@ -98,15 +119,15 @@
 			
 			<div class="col-lg-3"></div> <!-- offset from left side of page -->
 			
-			<div class="col-lg-2"> <!-- holds Facebook link -->
+			<div class="col-lg-2 icon"> <!-- holds Facebook link -->
 				<a href="https://www.facebook.com/luigis.spokane"><img id="facebook" src="logo_facebook.png" alt="FACEBOOK!"></a>
 			</div>
 			
-			<div class="col-lg-2"> <!-- holds reviews (yelp) info -->
+			<div class="col-lg-2 icon"> <!-- holds reviews (yelp) info -->
 				<a href="http://www.yelp.com/biz/luigis-italian-resturant-spokane"><img id="facebook" src="yelp-logo.jpg" alt="YELP!"></a>
 			</div>
 
-			<div class="col-lg-2"> <!-- holds YouTube logo-->
+			<div class="col-lg-2 icon"> <!-- holds YouTube logo-->
 				<a href="http://www.youtube.com/luigisrestaurant"><img id="youtube" src="youtube_logo.png" alt="LUIGI'S!"></a>
 			</div>
 			
@@ -115,6 +136,29 @@
 		</div>
 
 	</div>
+
+<!-- 	<div class="container">
+
+		<div class="row">
+  			<div class="col-sm-5 col-md-6">.col-sm-5 .col-md-6</div>
+			<div class="col-sm-5 col-sm-offset-2 col-md-6 col-md-offset-0">.col-sm-5 .col-sm-offset-2 .col-md-6 .col-md-offset-0</div>
+		</div>
+
+		<div class="row">
+		  <div class="col-sm-6 col-md-5 col-lg-6">.col-sm-6 .col-md-5 .col-lg-6</div>
+		  <div class="col-sm-6 col-md-5 col-md-offset-2 col-lg-6 col-lg-offset-0">.col-sm-6 .col-md-5 .col-md-offset-2 .col-lg-6 .col-lg-offset-0</div>
+		</div>
+
+		<br>
+		<br>
+		<br>
+
+		<div class="row">
+	  		<div class="col-md-9 col-md-push-3">.col-md-9 .col-md-push-3</div>
+	  		<div class="col-md-3 col-md-pull-9">.col-md-3 .col-md-pull-9</div>
+		</div>
+
+	</div> -->
 
 
 
