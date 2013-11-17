@@ -19,7 +19,7 @@
 		<!-- for viewing wireframe outlines -->
         <style type="text/css">
         
-  /*      * {
+        /** {
             border: 1px solid red;
             -moz-box-sizing: border-box;
             -webkit-box-sizing: border-box;
@@ -36,15 +36,19 @@
 	<!-- This will be the nav bar on the top of the page -->
 	<div class="container">
 	 	<div class="row nav_bar">
+	 		
 	 		<div class="col-lg-1"></div> <!-- offset from left side of page -->
-	 		<div class="col-lg-10">
-				<button type="button" class="btn btn-default nav-button">FOOD&nbsp;<i class="fa fa-cutlery"></i></button>
-	            <button type="button" class="btn btn-default nav-button">WINE&nbsp;<i class="fa fa-circle"></i></button>
-	            <button type="button" class="btn btn-default nav-button">SPECIALS&nbsp;<i class="fa fa-star"></i></button>
-	            <button type="button" class="btn btn-default nav-button">HAPPY HOUR&nbsp;<i class="fa fa-glass"></i></button>
-	            <button type="button" class="btn btn-default nav-button">CATERING&nbsp;<i class="fa fa-truck"></i></button> 
+	 		
+	 		<div class="col-lg-10"> <!-- the series of buttons for the nav bar -->
+				<a href="#"><button type="button" class="btn btn-default nav-button">FOOD&nbsp;<i class="fa fa-cutlery"></i></button></a>
+	            <a href="#"><button type="button" class="btn btn-default nav-button">WINE&nbsp;<i class="fa fa-circle"></i></button></a>
+	            <a href="#"><button type="button" class="btn btn-default nav-button">SPECIALS&nbsp;<i class="fa fa-star"></i></button></a>
+	            <a href="#"><button type="button" class="btn btn-default nav-button">HAPPY HOUR&nbsp;<i class="fa fa-glass"></i></button></a>
+	            <a href="#"><button type="button" class="btn btn-default nav-button">CATERING&nbsp;<i class="fa fa-truck"></i></button></a>
 	        </div>
+	 		
 	 		<div class="col-lg-1"></div> <!-- offset from right side of page -->
+	 	
 	 	</div>
 	</div>
 
@@ -52,26 +56,26 @@
 	<div class="container">
 		<div class="row middle_row">
 			
-			<div class="col-lg-1"></div> <!-- offset from left side of page -->
-			
-			<div class="col-lg-2"> <!-- holds hours and phone number -->
+			<div class="col-sm-1"></div> <!-- offset from left side of page -->
+
+			<div class="col-lg-2"> <!-- holds hours -->
 				<div id="hours">
 					<h3><u>LUIGI'S HOURS</u></h3>
 					<div>
 						<p>Monday - Thursday
-							<br>11AM &nbsp;<i class="fa fa-arrows-h">&nbsp;</i> 10PM
+						<br>11AM &nbsp;<i class="fa fa-arrows-h">&nbsp;</i> 10PM
 						</p>
-					
+						
 						<p></p>
 						<p>Friday
 							<br>11AM &nbsp;<i class="fa fa-arrows-h">&nbsp;</i> 11PM
 						</p>
-						
+							
 						<p></p>
 						<p>Saturday
 							<br> 4PM &nbsp;<i class="fa fa-arrows-h">&nbsp;</i> 11PM
 						</p>
-						
+							
 						<p></p>
 						<p>Sunday
 						<br> 4PM &nbsp;<i class="fa fa-arrows-h">&nbsp;</i> 9PM
@@ -80,40 +84,44 @@
 					</div>
 				</div>
 			</div>
-			
-			<div class="col-md-6"> <!-- holds main logo and info-->
+
+			<div class="col-lg-6"> <!-- holds main logo and info-->
 				<div id="mainlogo">
-					<img id="logo" src="mainLogo.jpg" alt="LUIGI'S!">
+					<img id="logo_img" src="mainLogo.jpg" alt="LUIGI'S!">
 				</div>
+				
 				<div id="spiel">
 					<p>Come on down to the Italian restaurant that folks have been raving about for years!</p>
 
 					<p>Located in beautiful downtown Spokane, Luigi's is one block from the Spokane Center and a few blocks from great shopping and one of the most picturesque city parks in America.</p>
 				</div>
+
 			</div>
-			
+				
+
+	
 			<div class="col-lg-2"> <!-- holds reservation and map link info -->
 				<div id="reservations">
 					<h3><u>RESERVATIONS</u></h3>
 					<p>(509) 624 - 5226</p>
 					<br>
-					<br>
 					<h3><u>LOCATION</u></h3>
-					<a id="map_link" href="https://maps.google.com/maps?q=luigi's+spokane&hl=en&ll=47.660257,-117.415352&spn=0.008816,0.01884&sll=47.662566,-117.423677&sspn=0.002204,0.00471&t=m&z=16">		
-						<p>245 West Main</p>
-						<p>Spokane, WA 99201</p>
+					<a id="map_link" href="https://maps.google.com/maps?q=luigi's+spokane&hl=en&ll=47.660257,-117.415352&spn=0.008816,0.01884&sll=47.662566,-117.423677&sspn=0.002204,0.00471&t=m&z=16"><p>245 West Main<br>
+						Spokane, WA 99201</p>
 					</a>	
 				</div>
 			</div>
-			
-			<div class="col-lg-1"></div> <!-- offset from right side of page -->
+
+
+				
+			<div class="col-sm-1"></div> <!-- offset from left side of page -->
 		
 		</div>
 
 	</div>
 
 
-
+	<!-- This is the bottom row for icon links to Luigi's social media outlets -->
 	<div class="container">
 		<div class="row bottom_row">
 			
@@ -123,11 +131,11 @@
 				<a href="https://www.facebook.com/luigis.spokane"><img id="facebook" src="logo_facebook.png" alt="FACEBOOK!"></a>
 			</div>
 			
-			<div class="col-lg-2 icon"> <!-- holds reviews (yelp) info -->
+			<div class="col-lg-2 icon"> <!-- holds reviews (yelp) link -->
 				<a href="http://www.yelp.com/biz/luigis-italian-resturant-spokane"><img id="facebook" src="yelp-logo.jpg" alt="YELP!"></a>
 			</div>
 
-			<div class="col-lg-2 icon"> <!-- holds YouTube logo-->
+			<div class="col-lg-2 icon"> <!-- holds YouTube link-->
 				<a href="http://www.youtube.com/luigisrestaurant"><img id="youtube" src="youtube_logo.png" alt="LUIGI'S!"></a>
 			</div>
 			
@@ -136,30 +144,6 @@
 		</div>
 
 	</div>
-
-<!-- 	<div class="container">
-
-		<div class="row">
-  			<div class="col-sm-5 col-md-6">.col-sm-5 .col-md-6</div>
-			<div class="col-sm-5 col-sm-offset-2 col-md-6 col-md-offset-0">.col-sm-5 .col-sm-offset-2 .col-md-6 .col-md-offset-0</div>
-		</div>
-
-		<div class="row">
-		  <div class="col-sm-6 col-md-5 col-lg-6">.col-sm-6 .col-md-5 .col-lg-6</div>
-		  <div class="col-sm-6 col-md-5 col-md-offset-2 col-lg-6 col-lg-offset-0">.col-sm-6 .col-md-5 .col-md-offset-2 .col-lg-6 .col-lg-offset-0</div>
-		</div>
-
-		<br>
-		<br>
-		<br>
-
-		<div class="row">
-	  		<div class="col-md-9 col-md-push-3">.col-md-9 .col-md-push-3</div>
-	  		<div class="col-md-3 col-md-pull-9">.col-md-3 .col-md-pull-9</div>
-		</div>
-
-	</div> -->
-
 
 
 </body>

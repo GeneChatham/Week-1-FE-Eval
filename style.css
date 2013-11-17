@@ -1,3 +1,5 @@
+
+/*font styling for the entire page*/
 * {
 	font-family: 'Balthazar', serif;
 }
@@ -8,6 +10,12 @@ h3 {
 }
 
 
+/*styling for top row nav bar elements*/
+.nav_bar {
+	padding: 30px;
+	text-align: center;
+	background-image: url(tablecloth.jpg);
+}
 
 .btn {
 	background-color: black;
@@ -23,16 +31,11 @@ h3 {
 }
 
 
-.nav_bar {
-	padding: 30px;
-	text-align: center;
-	background-image: url(tablecloth.jpg);
-}
 
-#logo {
-	width: 100%;
-}
 
+
+
+/*styling for middle row with hours, logo, spiel, phone number, and map*/
 .middle_row {
 	font-family: 'Balthazar', serif;
 	font-size: 20px;
@@ -40,11 +43,39 @@ h3 {
 	background-color: black;
 }
 
+#hours {
+	margin: 3px;
+	padding: 3px;
+}
+
+#mainlogo {
+	margin: 10px;
+}
+
+#logo_img {
+	width: 100%;
+}
+
+#spiel {
+	text-align: center;
+}
+
+#reservations {
+	margin: 3px;
+	padding: 3px;
+}
+
+#map_link {
+	color: #FFC8C8;
+}
+
+
+
+/*styling for bottom row social media icons*/
 .bottom_row {
 	padding: 15px;
 	text-align: center;
 	background-image: url(tablecloth.jpg);
-	/*padding: 10px;*/
 }
 
 
@@ -58,42 +89,12 @@ h3 {
 	max-width: 200px;
 }
 
-#mainlogo {
-	margin: 10px;
-}
-
 .icon {
-	margin: 10px;
+	margin-top: 10px;
 }
 
-#hours {
-	/*border: 1px solid white;*/
-	/*border-radius: 5%;*/
-	margin: 3px;
-	padding: 3px;
 
-}
 
-#reservations {
-	/*border: 1px solid white;*/
-	/*border-radius: 5%;*/
-	margin: 3px;
-	padding: 3px;
 
-}
 
-#map_link {
-	color: #FFC8C8;
-}
-
-#spiel {
-	text-align: center;
-}
-
-/*#map_link:hover{
-	border-color: white;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -khtml-border-radius: 5px;
-}*/
 
